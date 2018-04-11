@@ -142,8 +142,8 @@
 
 
 	$('#submit').click(function() {
-		var data=$('form').serialize();
-			console.log(data);
+		var data=$('#form').serialize();
+			$('#dato').html(data);
 	});
 
 
